@@ -1,34 +1,529 @@
-﻿Localidade;1_trimestre_2018;2_trimestre_2018;3_trimestre_2018;4_trimestre_2018;1_trimestre_2019;2_trimestre_2019;3_trimestre_2019;4_trimestre_2019;1_trimestre_2020;2_trimestre_2020;3_trimestre_2020;4_trimestre_2020;1_trimestre_2021;2_trimestre_2021;3_trimestre_2021;4_trimestre_2021
-Brasil;13872;13148;12694;12413;13651;13011;12798;11903;13148;13228;14598;14412;15257;14832;13453;12011
-Norte;1043;994;962;981;1092;999;1003;897;1011;;;;;;;
-Nordeste;3973;3688;3647;3642;3859;3716;3684;3468;3941;;;;;;;
-Sudeste;6610;6355;6050;5873;6421;6072;5866;5587;6027;;;;;;;
-Sul;1355;1304;1269;1187;1332;1315;1341;1122;1238;;;;;;;
-Centro-Oeste;892;807;766;731;949;910;904;828;930;;;;;;;
-Rondonia;90;69;77;80;79;60;74;72;76;;;;;;;
-Acre;53;48;48;49;65;49;47;49;47;;;;;;;
-Amazonas;251;254;240;267;296;265;257;248;279;;;;;;;
-Roraima;25;28;33;36;39;38;37;38;42;;;;;;;
-Para;465;434;424;397;445;435;444;360;417;;;;;;;
-Amapa;80;80;70;75;78;69;66;62;67;;;;;;;
-Tocantins;78;81;70;77;90;84;78;67;84;;;;;;;
-Maranhao;423;376;367;379;429;388;382;330;431;;;;;;;
-Piaui;187;194;182;181;188;191;199;200;202;;;;;;;
-Ceara;530;479;444;420;476;459;478;437;513;;;;;;;
-Rio Grande do Norte;229;202;204;211;214;195;210;199;244;;;;;;;
-Paraiba;203;188;190;194;189;207;193;206;232;;;;;;;
-Pernambuco;759;723;719;664;696;681;674;601;611;;;;;;;
-Alagoas;206;202;205;193;194;186;193;165;204;;;;;;;
-Sergipe;178;174;183;161;165;169;162;168;171;;;;;;;
-Bahia;1258;1149;1155;1239;1307;1240;1194;1162;1333;;;;;;;
-Minas Gerais;1419;1227;1105;1093;1257;1096;1149;1098;1320;;;;;;;
-Espirito Santo;264;257;241;220;266;242;233;227;243;;;;;;;
-Rio de Janeiro;1335;1372;1304;1335;1388;1366;1314;1246;1313;;;;;;;
-Sao Paulo;3592;3499;3400;3226;3510;3368;3169;3015;3151;;;;;;;
-Parana;581;545;527;479;550;560;559;450;487;;;;;;;
-Santa Catarina;254;252;242;250;285;239;227;216;223;;;;;;;
-Rio Grande do Sul;520;507;499;458;496;515;555;455;529;;;;;;;
-Mato Grosso do Sul;120;108;105;101;137;123;111;96;111;;;;;;;
-Mato Grosso;164;151;120;124;167;154;148;117;158;;;;;;;
-Goias;381;349;331;306;407;399;421;405;434;;;;;;;
-Distrito Federal;227;200;210;200;238;234;224;210;228;;;;;;;
+﻿Localidade;Ano/Trimestre;Desocupados_mil
+Brasil;2018/1;13872
+Brasil;2018/2;13148
+Brasil;2018/3;12694
+Brasil;2018/4;12413
+Brasil;2019/1;13651
+Brasil;2019/2;13011
+Brasil;2019/3;12798
+Brasil;2019/4;11903
+Brasil;2020/1;13148
+Brasil;2020/2;13228
+Brasil;2020/3;14598
+Brasil;2020/4;14412
+Brasil;2021/1;15257
+Brasil;2021/2;14832
+Brasil;2021/3;13453
+Brasil;2021/4;12011
+Norte;2018/1;1043
+Norte;2018/2;994
+Norte;2018/3;962
+Norte;2018/4;981
+Norte;2019/1;1092
+Norte;2019/2;999
+Norte;2019/3;1003
+Norte;2019/4;897
+Norte;2020/1;1011
+Norte;2020/2;926
+Norte;2020/3;1060
+Norte;2020/4;1041
+Norte;2021/1;1236
+Norte;2021/2;1192
+Norte;2021/3;1041
+Norte;2021/4;986
+Nordeste;2018/1;3973
+Nordeste;2018/2;3688
+Nordeste;2018/3;3647
+Nordeste;2018/4;3642
+Nordeste;2019/1;3859
+Nordeste;2019/2;3716
+Nordeste;2019/3;3684
+Nordeste;2019/4;3468
+Nordeste;2020/1;3941
+Nordeste;2020/2;3617
+Nordeste;2020/3;4082
+Nordeste;2020/4;4178
+Nordeste;2021/1;4530
+Nordeste;2021/2;4493
+Nordeste;2021/3;4088
+Nordeste;2021/4;3710
+Sudeste;2018/1;6610
+Sudeste;2018/2;6355
+Sudeste;2018/3;6050
+Sudeste;2018/4;5873
+Sudeste;2019/1;6421
+Sudeste;2019/2;6072
+Sudeste;2019/3;5866
+Sudeste;2019/4;5587
+Sudeste;2020/1;6027
+Sudeste;2020/2;6236
+Sudeste;2020/3;6920
+Sudeste;2020/4;6856
+Sudeste;2021/1;7030
+Sudeste;2021/2;6861
+Sudeste;2021/3;6272
+Sudeste;2021/4;5466
+Sul;2018/1;1355
+Sul;2018/2;1304
+Sul;2018/3;1269
+Sul;2018/4;1187
+Sul;2019/1;1332
+Sul;2019/2;1315
+Sul;2019/3;1341
+Sul;2019/4;1122
+Sul;2020/1;1238
+Sul;2020/2;1414
+Sul;2020/3;1470
+Sul;2020/4;1319
+Sul;2021/1;1378
+Sul;2021/2;1293
+Sul;2021/3;1203
+Sul;2021/4;1107
+Centro-Oeste;2018/1;892
+Centro-Oeste;2018/2;807
+Centro-Oeste;2018/3;766
+Centro-Oeste;2018/4;731
+Centro-Oeste;2019/1;949
+Centro-Oeste;2019/2;910
+Centro-Oeste;2019/3;904
+Centro-Oeste;2019/4;828
+Centro-Oeste;2020/1;930
+Centro-Oeste;2020/2;1035
+Centro-Oeste;2020/3;1065
+Centro-Oeste;2020/4;1017
+Centro-Oeste;2021/1;1083
+Centro-Oeste;2021/2;992
+Centro-Oeste;2021/3;849
+Centro-Oeste;2021/4;742
+Rondonia;2018/1;90
+Rondonia;2018/2;69
+Rondonia;2018/3;77
+Rondonia;2018/4;80
+Rondonia;2019/1;79
+Rondonia;2019/2;60
+Rondonia;2019/3;74
+Rondonia;2019/4;72
+Rondonia;2020/1;76
+Rondonia;2020/2;91
+Rondonia;2020/3;96
+Rondonia;2020/4;94
+Rondonia;2021/1;96
+Rondonia;2021/2;86
+Rondonia;2021/3;70
+Rondonia;2021/4;63
+Acre;2018/1;53
+Acre;2018/2;48
+Acre;2018/3;48
+Acre;2018/4;49
+Acre;2019/1;65
+Acre;2019/2;49
+Acre;2019/3;47
+Acre;2019/4;49
+Acre;2020/1;47
+Acre;2020/2;49
+Acre;2020/3;58
+Acre;2020/4;57
+Acre;2021/1;66
+Acre;2021/2;64
+Acre;2021/3;52
+Acre;2021/4;51
+Amazonas;2018/1;251
+Amazonas;2018/2;254
+Amazonas;2018/3;240
+Amazonas;2018/4;267
+Amazonas;2019/1;296
+Amazonas;2019/2;265
+Amazonas;2019/3;257
+Amazonas;2019/4;248
+Amazonas;2020/1;279
+Amazonas;2020/2;291
+Amazonas;2020/3;310
+Amazonas;2020/4;295
+Amazonas;2021/1;329
+Amazonas;2021/2;304
+Amazonas;2021/3;264
+Amazonas;2021/4;252
+Roraima;2018/1;25
+Roraima;2018/2;28
+Roraima;2018/3;33
+Roraima;2018/4;36
+Roraima;2019/1;39
+Roraima;2019/2;38
+Roraima;2019/3;37
+Roraima;2019/4;38
+Roraima;2020/1;42
+Roraima;2020/2;39
+Roraima;2020/3;45
+Roraima;2020/4;36
+Roraima;2021/1;36
+Roraima;2021/2;37
+Roraima;2021/3;28
+Roraima;2021/4;24
+Para;2018/1;465
+Para;2018/2;434
+Para;2018/3;424
+Para;2018/4;397
+Para;2019/1;445
+Para;2019/2;435
+Para;2019/3;444
+Para;2019/4;360
+Para;2020/1;417
+Para;2020/2;330
+Para;2020/3;413
+Para;2020/4;420
+Para;2021/1;523
+Para;2021/2;524
+Para;2021/3;475
+Para;2021/4;450
+Amapa;2018/1;80
+Amapa;2018/2;80
+Amapa;2018/3;70
+Amapa;2018/4;75
+Amapa;2019/1;78
+Amapa;2019/2;69
+Amapa;2019/3;66
+Amapa;2019/4;62
+Amapa;2020/1;67
+Amapa;2020/2;39
+Amapa;2020/3;54
+Amapa;2020/4;59
+Amapa;2021/1;56
+Amapa;2021/2;62
+Amapa;2021/3;71
+Amapa;2021/4;73
+Tocantins;2018/1;78
+Tocantins;2018/2;81
+Tocantins;2018/3;70
+Tocantins;2018/4;77
+Tocantins;2019/1;90
+Tocantins;2019/2;84
+Tocantins;2019/3;78
+Tocantins;2019/4;67
+Tocantins;2020/1;84
+Tocantins;2020/2;88
+Tocantins;2020/3;84
+Tocantins;2020/4;81
+Tocantins;2021/1;130
+Tocantins;2021/2;117
+Tocantins;2021/3;82
+Tocantins;2021/4;74
+Maranhao;2018/1;423
+Maranhao;2018/2;376
+Maranhao;2018/3;367
+Maranhao;2018/4;379
+Maranhao;2019/1;429
+Maranhao;2019/2;388
+Maranhao;2019/3;382
+Maranhao;2019/4;330
+Maranhao;2020/1;431
+Maranhao;2020/2;391
+Maranhao;2020/3;417
+Maranhao;2020/4;365
+Maranhao;2021/1;448
+Maranhao;2021/2;467
+Maranhao;2021/3;409
+Maranhao;2021/4;364
+Piaui;2018/1;187
+Piaui;2018/2;194
+Piaui;2018/3;182
+Piaui;2018/4;181
+Piaui;2019/1;188
+Piaui;2019/2;191
+Piaui;2019/3;199
+Piaui;2019/4;200
+Piaui;2020/1;202
+Piaui;2020/2;162
+Piaui;2020/3;174
+Piaui;2020/4;167
+Piaui;2021/1;212
+Piaui;2021/2;221
+Piaui;2021/3;173
+Piaui;2021/4;173
+Ceara;2018/1;530
+Ceara;2018/2;479
+Ceara;2018/3;444
+Ceara;2018/4;420
+Ceara;2019/1;476
+Ceara;2019/2;459
+Ceara;2019/3;478
+Ceara;2019/4;437
+Ceara;2020/1;513
+Ceara;2020/2;443
+Ceara;2020/3;515
+Ceara;2020/4;558
+Ceara;2021/1;557
+Ceara;2021/2;577
+Ceara;2021/3;492
+Ceara;2021/4;439
+Rio Grande do Norte;2018/1;229
+Rio Grande do Norte;2018/2;202
+Rio Grande do Norte;2018/3;204
+Rio Grande do Norte;2018/4;211
+Rio Grande do Norte;2019/1;214
+Rio Grande do Norte;2019/2;195
+Rio Grande do Norte;2019/3;210
+Rio Grande do Norte;2019/4;199
+Rio Grande do Norte;2020/1;244
+Rio Grande do Norte;2020/2;209
+Rio Grande do Norte;2020/3;251
+Rio Grande do Norte;2020/4;235
+Rio Grande do Norte;2021/1;235
+Rio Grande do Norte;2021/2;242
+Rio Grande do Norte;2021/3;221
+Rio Grande do Norte;2021/4;194
+Paraiba;2018/1;203
+Paraiba;2018/2;188
+Paraiba;2018/3;190
+Paraiba;2018/4;194
+Paraiba;2019/1;189
+Paraiba;2019/2;207
+Paraiba;2019/3;193
+Paraiba;2019/4;206
+Paraiba;2020/1;232
+Paraiba;2020/2;196
+Paraiba;2020/3;262
+Paraiba;2020/4;254
+Paraiba;2021/1;260
+Paraiba;2021/2;243
+Paraiba;2021/3;231
+Paraiba;2021/4;208
+Pernambuco;2018/1;759
+Pernambuco;2018/2;723
+Pernambuco;2018/3;719
+Pernambuco;2018/4;664
+Pernambuco;2019/1;696
+Pernambuco;2019/2;681
+Pernambuco;2019/3;674
+Pernambuco;2019/4;601
+Pernambuco;2020/1;611
+Pernambuco;2020/2;552
+Pernambuco;2020/3;709
+Pernambuco;2020/4;775
+Pernambuco;2021/1;888
+Pernambuco;2021/2;906
+Pernambuco;2021/3;806
+Pernambuco;2021/4;723
+Alagoas;2018/1;206
+Alagoas;2018/2;202
+Alagoas;2018/3;205
+Alagoas;2018/4;193
+Alagoas;2019/1;194
+Alagoas;2019/2;186
+Alagoas;2019/3;193
+Alagoas;2019/4;165
+Alagoas;2020/1;204
+Alagoas;2020/2;203
+Alagoas;2020/3;228
+Alagoas;2020/4;260
+Alagoas;2021/1;261
+Alagoas;2021/2;254
+Alagoas;2021/3;231
+Alagoas;2021/4;203
+Sergipe;2018/1;178
+Sergipe;2018/2;174
+Sergipe;2018/3;183
+Sergipe;2018/4;161
+Sergipe;2019/1;165
+Sergipe;2019/2;169
+Sergipe;2019/3;162
+Sergipe;2019/4;168
+Sergipe;2020/1;171
+Sergipe;2020/2;205
+Sergipe;2020/3;206
+Sergipe;2020/4;193
+Sergipe;2021/1;226
+Sergipe;2021/2;209
+Sergipe;2021/3;188
+Sergipe;2021/4;165
+Bahia;2018/1;1258
+Bahia;2018/2;1149
+Bahia;2018/3;1155
+Bahia;2018/4;1239
+Bahia;2019/1;1307
+Bahia;2019/2;1240
+Bahia;2019/3;1194
+Bahia;2019/4;1162
+Bahia;2020/1;1333
+Bahia;2020/2;1256
+Bahia;2020/3;1321
+Bahia;2020/4;1372
+Bahia;2021/1;1442
+Bahia;2021/2;1374
+Bahia;2021/3;1336
+Bahia;2021/4;1240
+Minas Gerais;2018/1;1419
+Minas Gerais;2018/2;1227
+Minas Gerais;2018/3;1105
+Minas Gerais;2018/4;1093
+Minas Gerais;2019/1;1257
+Minas Gerais;2019/2;1096
+Minas Gerais;2019/3;1149
+Minas Gerais;2019/4;1098
+Minas Gerais;2020/1;1320
+Minas Gerais;2020/2;1385
+Minas Gerais;2020/3;1443
+Minas Gerais;2020/4;1344
+Minas Gerais;2021/1;1523
+Minas Gerais;2021/2;1393
+Minas Gerais;2021/3;1210
+Minas Gerais;2021/4;1070
+Espirito Santo;2018/1;264
+Espirito Santo;2018/2;257
+Espirito Santo;2018/3;241
+Espirito Santo;2018/4;220
+Espirito Santo;2019/1;266
+Espirito Santo;2019/2;242
+Espirito Santo;2019/3;233
+Espirito Santo;2019/4;227
+Espirito Santo;2020/1;243
+Espirito Santo;2020/2;255
+Espirito Santo;2020/3;296
+Espirito Santo;2020/4;282
+Espirito Santo;2021/1;278
+Espirito Santo;2021/2;245
+Espirito Santo;2021/3;214
+Espirito Santo;2021/4;214
+Rio de Janeiro;2018/1;1335
+Rio de Janeiro;2018/2;1372
+Rio de Janeiro;2018/3;1304
+Rio de Janeiro;2018/4;1335
+Rio de Janeiro;2019/1;1388
+Rio de Janeiro;2019/2;1366
+Rio de Janeiro;2019/3;1314
+Rio de Janeiro;2019/4;1246
+Rio de Janeiro;2020/1;1313
+Rio de Janeiro;2020/2;1349
+Rio de Janeiro;2020/3;1567
+Rio de Janeiro;2020/4;1641
+Rio de Janeiro;2021/1;1650
+Rio de Janeiro;2021/2;1588
+Rio de Janeiro;2021/3;1422
+Rio de Janeiro;2021/4;1285
+Sao Paulo;2018/1;3592
+Sao Paulo;2018/2;3499
+Sao Paulo;2018/3;3400
+Sao Paulo;2018/4;3226
+Sao Paulo;2019/1;3510
+Sao Paulo;2019/2;3368
+Sao Paulo;2019/3;3169
+Sao Paulo;2019/4;3015
+Sao Paulo;2020/1;3151
+Sao Paulo;2020/2;3247
+Sao Paulo;2020/3;3613
+Sao Paulo;2020/4;3589
+Sao Paulo;2021/1;3579
+Sao Paulo;2021/2;3636
+Sao Paulo;2021/3;3426
+Sao Paulo;2021/4;2898
+Parana;2018/1;581
+Parana;2018/2;545
+Parana;2018/3;527
+Parana;2018/4;479
+Parana;2019/1;550
+Parana;2019/2;560
+Parana;2019/3;559
+Parana;2019/4;450
+Parana;2020/1;487
+Parana;2020/2;577
+Parana;2020/3;617
+Parana;2020/4;608
+Parana;2021/1;571
+Parana;2021/2;532
+Parana;2021/3;484
+Parana;2021/4;435
+Santa Catarina;2018/1;254
+Santa Catarina;2018/2;252
+Santa Catarina;2018/3;242
+Santa Catarina;2018/4;250
+Santa Catarina;2019/1;285
+Santa Catarina;2019/2;239
+Santa Catarina;2019/3;227
+Santa Catarina;2019/4;216
+Santa Catarina;2020/1;223
+Santa Catarina;2020/2;275
+Santa Catarina;2020/3;253
+Santa Catarina;2020/4;204
+Santa Catarina;2021/1;241
+Santa Catarina;2021/2;228
+Santa Catarina;2021/3;207
+Santa Catarina;2021/4;172
+Rio Grande do Sul;2018/1;520
+Rio Grande do Sul;2018/2;507
+Rio Grande do Sul;2018/3;499
+Rio Grande do Sul;2018/4;458
+Rio Grande do Sul;2019/1;496
+Rio Grande do Sul;2019/2;515
+Rio Grande do Sul;2019/3;555
+Rio Grande do Sul;2019/4;455
+Rio Grande do Sul;2020/1;529
+Rio Grande do Sul;2020/2;562
+Rio Grande do Sul;2020/3;601
+Rio Grande do Sul;2020/4;507
+Rio Grande do Sul;2021/1;566
+Rio Grande do Sul;2021/2;533
+Rio Grande do Sul;2021/3;512
+Rio Grande do Sul;2021/4;500
+Mato Grosso do Sul;2018/1;120
+Mato Grosso do Sul;2018/2;108
+Mato Grosso do Sul;2018/3;105
+Mato Grosso do Sul;2018/4;101
+Mato Grosso do Sul;2019/1;137
+Mato Grosso do Sul;2019/2;123
+Mato Grosso do Sul;2019/3;111
+Mato Grosso do Sul;2019/4;96
+Mato Grosso do Sul;2020/1;111
+Mato Grosso do Sul;2020/2;155
+Mato Grosso do Sul;2020/3;157
+Mato Grosso do Sul;2020/4;129
+Mato Grosso do Sul;2021/1;146
+Mato Grosso do Sul;2021/2;138
+Mato Grosso do Sul;2021/3;107
+Mato Grosso do Sul;2021/4;92
+Mato Grosso;2018/1;164
+Mato Grosso;2018/2;151
+Mato Grosso;2018/3;120
+Mato Grosso;2018/4;124
+Mato Grosso;2019/1;167
+Mato Grosso;2019/2;154
+Mato Grosso;2019/3;148
+Mato Grosso;2019/4;117
+Mato Grosso;2020/1;158
+Mato Grosso;2020/2;182
+Mato Grosso;2020/3;181
+Mato Grosso;2020/4;197
+Mato Grosso;2021/1;184
+Mato Grosso;2021/2;164
+Mato Grosso;2021/3;120
+Mato Grosso;2021/4;108
+Goias;2018/1;381
+Goias;2018/2;349
+Goias;2018/3;331
+Goias;2018/4;306
+Goias;2019/1;407
+Goias;2019/2;399
+Goias;2019/3;421
+Goias;2019/4;405
+Goias;2020/1;434
+Goias;2020/2;456
+Goias;2020/3;479
+Goias;2020/4;456
+Goias;2021/1;505
+Goias;2021/2;455
+Goias;2021/3;375
+Goias;2021/4;332
+Distrito Federal;2018/1;227
+Distrito Federal;2018/2;200
+Distrito Federal;2018/3;210
+Distrito Federal;2018/4;200
+Distrito Federal;2019/1;238
+Distrito Federal;2019/2;234
+Distrito Federal;2019/3;224
+Distrito Federal;2019/4;210
+Distrito Federal;2020/1;228
+Distrito Federal;2020/2;242
+Distrito Federal;2020/3;248
+Distrito Federal;2020/4;235
+Distrito Federal;2021/1;248
+Distrito Federal;2021/2;235
+Distrito Federal;2021/3;247
+Distrito Federal;2021/4;210
